@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Southern University of Science and Technology</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.sustech.edu.cn/'>Southern University of Science and Technology</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
