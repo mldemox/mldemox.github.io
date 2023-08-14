@@ -414,12 +414,12 @@ blockquote {
     font-size: 0.8rem;
 }
 
-footer.fixed-bottom {
+footer.footer-bottom {
     background-color: var(--global-footer-bg-color);
     font-size: 0.75rem;
 }
 
-footer.fixed-bottom .container {
+footer.footer-bottom .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
@@ -427,11 +427,11 @@ footer.fixed-bottom .container {
     text-align: center;
 }
 
-footer.fixed-bottom a {
+footer.footer-bottom a {
     color: var(--global-footer-link-color);
 }
 
-footer.fixed-bottom a:hover {
+footer.footer-bottom a:hover {
     color: var(--global-theme-color);
     text-decoration: none;
 }
