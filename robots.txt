@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://github.com/mldemox//sitemap.xml
+Sitemap: https://mldemox.github.io/sitemap.xml
