@@ -6,12 +6,11 @@ layout: default
 {%- assign tags = page.tags | join: "" -%}
 {%- assign categories = page.categories | join: "" -%}
 
-{% if page._styles %}
-<!-- Page/Post style -->
+<!-- {% if page._styles %}
 <style type="text/css">
-  {{ page._styles }}
+   {{page._styles }}
 </style>
-{% endif %}
+{% endif %} -->
 
 <div class="post">
 
@@ -38,7 +37,7 @@ layout: default
 
     </p>
   </header>
-<!-- 
+
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
     <div id="table-of-contents">
@@ -49,7 +48,7 @@ layout: default
     <div id="markdown-content">
       {{ content }}
     </div>
-  </article> -->
+  </article>
 
   {%- if page.related_publications != null and page.related_publications.size > 0 -%}
   {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
