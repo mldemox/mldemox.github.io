@@ -5,7 +5,7 @@
   --global-text-color: #000;
   --global-text-color-light: #828282;
   --global-theme-color: #b509ac;
-  --global-hover-color: #b509ac;
+  --global-hover-color: #498af4;
   --global-hover-text-color: #fff;
   --global-footer-bg-color: #1c1c1d;
   --global-footer-text-color: #e8e8e8;
@@ -101,7 +101,7 @@ body.sticky-bottom-footer {
   padding-bottom: 0;
 }
 .container {
-  max-width: 800px;
+  max-width: 57%
 }
 .profile img {
   width: 100%;
@@ -230,6 +230,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  margin: 0 auto;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
