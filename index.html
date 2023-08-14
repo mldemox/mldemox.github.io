@@ -39,10 +39,6 @@
             margin: 0 auto !important;
         }
 
-        .container {
-            width: 65% !important;
-        }
-
         .header-container {
             display: flex;
             flex-direction: row;
@@ -52,9 +48,24 @@
             font-size: 14px;
         }
 
-        .header-container .text-container{
-            width: 60%;
+        .container.about-container {
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: -5px 8px 5px 1px rgba(0, 0, 0, .25);
         }
+
+        .container.about-container.message-container {
+             display: flex;
+             flex-direction: column;
+             margin: auto 50px;
+        }
+
+        .self-introduce .url-container {
+            display: flex;
+        }
+
     </style>
 </head>
 
@@ -95,28 +106,35 @@
         </progress>
     </header>
     <div class="container mt-5">
-        <div class="self-introduce" id="self-introduce" >
-            <div class="introduce-container container">
-                <div class="body-container  col-sm-2">
-                    <img src="assets/img/split-img.png"  class='img-fluid' style="border-radius: 5px;">
+        <div class="about-container">
+            <div class="message-container">
+                <h4 class="heading me-2">About Me<span class="element text-primary"
+                        data-elements="Web Designer, Web Developer, Photographer"></span>
+                    <span id="typed" class="text-primary"></span>
+                </h4>
+                <p class="text-light-muted mt-2"> I'm a research associate at <a
+                        href="https://www.sustech.edu.cn/">Southern University of Science and Technology.</a> In
+                    2010, I received my master's degree in signal processing from the <a
+                        href="https://dianzi.nwpu.edu.cn/">School of Electronic Information of Northwestern
+                        Polytechnical University.</a> In 2015, I received my doctorate degree in speech signal
+                    processing from <a href="https://www.tudelft.nl/en/">Delft University of Technology.</a> From
+                    2015 to 2018, I worked as a researcher in machine
+                    learning and image restoration in Delft University of Technology. Since 2018, he has been
+                    engaged in the research work of machine learning and signal detection and repair in Southern
+                    University of Science
+                    and Technology. and is committed to solving practical problems by combining traditional signal
+                    processing methods and machine learning methods.</p>
+                <div class="url-container">
+                    <a href="https://github.com/mldemox" style="margin-right: 10px;">[GitHub]</a>
+                    <a href="https://scholar.google.com/citations?user=9JIiC2EAAAAJ&hl=zh-CN&oi=sra"
+                        style="margin-right: 10px;">[Google
+                        Scholar]</a>
+                    <a href="https://eee.sustech.edu.cn/?view=5661&jsid=16">[HomePage]</a>
                 </div>
-                <div class="message-container">
-                    <div class="post-header">
-                        <h1 class="post-title"> <span class="font-weight-bold">Yuan</span> Zeng </h1>
-                        <p class="desc">Research Associate in <a href="https://www.sustech.edu.cn/"
-                                rel="external nofollow noopener" target="_blank">Southern University of Science and
-                                Technology</a>, Shenzhen, China
-                        </p>
-                    </div>
-                    <p class="text-light-muted mt-2"> I'm a research associate at <a href="https://www.sustech.edu.cn/">Southern University of Science and Technology.</a> In 2010, I received my master's degree in signal processing from the <a href="https://dianzi.nwpu.edu.cn/">School of Electronic Information of Northwestern Polytechnical University.</a>In 2015, I received my doctorate degree in speech signal processing from <a href="https://www.tudelft.nl/en/">Delft University of Technology.</a> From 2015 to 2018, I worked as a researcher in machine
-                            learning and image restoration in Delft University of Technology. Since 2018, he has been engaged in the research work of machine learning and signal detection and repair in Southern University of Science
-                            and Technology. and is committed to solving practical problems by combining traditional signal processing methods and machine learning methods.</p>
-                    <div class="url-container">
-                        <a href="https://github.com/mldemox" style="margin-right: 10px;">[GitHub]</a>
-                        <a href="https://scholar.google.com/citations?user=9JIiC2EAAAAJ&hl=zh-CN&oi=sra" style="margin-right: 10px;">[Google
-                            Scholar]</a>
-                        <a href="https://eee.sustech.edu.cn/?view=5661&jsid=16">[HomePage]</a>
-                    </div>
+            </div>
+
+            <div class="body-container col-sm-2">
+                <img src="assets/img/split-img.png" class='img-fluid' style="border-radius: 5px;">
             </div>
         </div>
         <!-- <div class="post header-container">
