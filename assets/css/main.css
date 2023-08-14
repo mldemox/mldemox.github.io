@@ -117,6 +117,8 @@ body.sticky-bottom-footer {
 .container {
     max-width: 57%;
     background-color: white;
+    padding: 20px;
+    border-radius: 3px;
 }
 
 .profile img {
