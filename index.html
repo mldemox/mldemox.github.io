@@ -33,6 +33,7 @@
     <style>
         *{
            font-family: 'Times New Roman', Times, serif; 
+           font-size: 17px !important;
         }
 
         .fix-header{
@@ -41,6 +42,11 @@
 
         .container{
             width: 60% !important;
+        }
+
+        .header-container{
+            display: flex;
+            flex-direction: row;
         }
 
     </style>
@@ -82,9 +88,9 @@
             <div class="progress-container"> <span class="progress-bar"></span> </div>
         </progress>
     </header>
-    <div class="container mt-4">
-        <div class="post">
-            <div class="float-left">
+    <div class="container mt-5">
+        <div class="post header-container">
+            <div class="text-container">
                 <div class="post-header">
                     <h1 class="post-title"> <span class="font-weight-bold">Yuan</span> Zeng </h1>
                     <p class="desc">Research Associate in <a href="https://www.sustech.edu.cn/" rel="external nofollow noopener"
@@ -110,13 +116,13 @@
                         your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.</p>
                 </div>
             </div>
-            <div class="profile float-right">
+            <div class="profile img-container">
                 <img src="assets/img/half-body.png" class="img-fluid z-depth-1 rounded" width="auto"
                             height="auto" alt="whole-body.jpg"
                             onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                 <div class="address">
                     <div class="content mt-4">
-                        <a href="#" class="text-primary "><b>tel:</b>0755-880101144</a>
+                        <b>Tel:</b><a href="#" class="text-primary ">0755-880101144</a>
                     </div>
                     <div class="content mt-4 ">
                         <p class="text-light-muted "><b>Street:</b>1088 Xueyuan Avenue, Nanshan District</p>
