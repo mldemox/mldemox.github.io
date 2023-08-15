@@ -92,7 +92,7 @@ html[data-theme="dark"] .repo-img-dark {
 }
 
 body {
-    padding-bottom: 70px;
+    /*padding-bottom: 70px;*/
     color: var(--global-text-color);
     background-color: var(--global-bg-color);
 }
@@ -115,7 +115,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-    max-width: 57%;
+    max-width: 55%;
     background-color: white;
 }
 
