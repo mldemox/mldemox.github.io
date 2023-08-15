@@ -1447,7 +1447,7 @@ footer.fixed-bottom .container {
     padding-bottom: 8px;
     margin: 0 auto;
     text-align: center;
-    background-color: black;
+    background-color: var(--global-footer-bg-color);
 }
 
 .card-body {
