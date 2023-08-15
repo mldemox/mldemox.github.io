@@ -1450,10 +1450,10 @@ footer.fixed-bottom .container {
     background-color: black;
 }
 
-/* .card-body {
+.card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 150px !important;
     padding: 1.25rem;
     max-height: 150px;
-} */
+}
