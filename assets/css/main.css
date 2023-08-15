@@ -1429,3 +1429,9 @@ ul.timeline li::before {
     left: 2px;
     top: -0.5rem;
 }
+
+.fixed-bottom{
+    display: block !important;
+    width: 100%;
+    background-color: #000;
+}
