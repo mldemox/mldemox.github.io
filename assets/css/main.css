@@ -119,6 +119,10 @@ body.sticky-bottom-footer {
     background-color: white;
 }
 
+.footer-bottom .container{
+    background-color: black;
+}
+
 .profile img {
     width: 100%;
 }
