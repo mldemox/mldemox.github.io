@@ -1435,7 +1435,7 @@ ul.timeline li::before {
 }
 
 .fixed-bottom{
-    margin-top: 20px;
+    margin-top: 40px;
     position: static !important;
     width: 100%;
     background-color: var(--global-footer-bg-color);
@@ -1449,4 +1449,12 @@ footer.fixed-bottom .container {
     margin: 0 auto;
     text-align: center;
     background-color: black;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 150px !important;
+    padding: 1.25rem;
+    max-height: 150px;
 }
