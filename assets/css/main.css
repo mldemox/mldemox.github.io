@@ -1418,6 +1418,8 @@ span.badge-toc {
     font-weight: 700 !important;
     display: inline-block;
     inline-size: fit-content;
+    width: 100px;
+    text-align: right;
 }
 
 ul.timeline li::before {
