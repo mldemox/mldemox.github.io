@@ -428,6 +428,7 @@ footer.footer-bottom .container {
     padding-bottom: 8px;
     margin: 0 auto;
     text-align: center;
+    background-color: black;
 }
 
 footer.footer-bottom a {
