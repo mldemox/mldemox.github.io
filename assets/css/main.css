@@ -1433,10 +1433,21 @@ ul.timeline li::before {
 .fixed-bottom{
     margin-top: 20px;
     display: block !important;
+    position: static !important;
     width: 100%;
-    background-color: #000;
+    background-color: var(--global-footer-bg-color);
+    font-size: 0.75rem;
 }
 
 .fixed-bottom .container{
     background-color: #000;
+}
+
+footer.fixed-bottom .container {
+    color: var(--global-footer-text-color);
+    padding-top: 9px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
 }
